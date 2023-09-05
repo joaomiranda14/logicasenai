@@ -1,20 +1,20 @@
 Algoritmo "QUINTA QUESTAO"
 // 
 //  
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 31/08/2023
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 operacaoEscolhida:caracter
 valorA:inteiro
 valorB:inteiro
 resultado: REAL
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
 
-Escreva("Qual operação você deseja fazer?: ")
+Escreva("Qual operaÃ§Ã£o vocÃª deseja fazer ( +,-,* ou /) ?: ")
 leia(operacaoEscolhida)
 
 escreva("Digite o primeiro valor: ")
@@ -29,11 +29,11 @@ LIMPATELA
 
 //TELA USUARIO
 
-escreval("Operação escolhida: ",operacaoEscolhida)
+escreval("OperaÃ§Ã£o escolhida: ",operacaoEscolhida)
 escreval("Primeiro valor" , valorA)
 escreval("Segundo valor",  valorB)
 
-//CONDIÇÃO
+//CONDIÃ‡ÃƒO
 
 se(operacaoEscolhida = "+")entao
   resultado <- valorA + valorB
