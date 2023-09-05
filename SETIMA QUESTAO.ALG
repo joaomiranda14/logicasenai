@@ -1,11 +1,11 @@
 Algoritmo "semnome"
 // 
 //  
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 01/09/2023
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 produto:caracter
 quantidade:inteiro
 precoUni:real
@@ -13,12 +13,12 @@ desconto: real
 total:real
 valorFinal:real
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
 
-escreval("Qual produto você comprou?")
+escreval("Qual produto vocÃª comprou?")
 leia(produto)
 
-escreval("Quantos você comprou?")
+escreval("Quantos vocÃª comprou?")
 leia(quantidade)
 
 escreval("Quanto custou a unidade em reais?")
@@ -27,18 +27,18 @@ leia(precoUni)
 LIMPATELA
 //
 
-total <- quantidade * precoUni/
+total <- quantidade * precoUni
 
 escreval ("O total deu:",total)
 
 
 
-// condições
+// condiÃ§Ãµes
 
 
 se(quantidade <= 5)entao
    desconto <- total * 0.20
-escreval("Seu desconto é de :", desconto)
+escreval("Seu desconto Ã© de :", desconto)
 
 fimse
 
@@ -46,19 +46,19 @@ fimse
 
 se(quantidade > 5 ) E (quantidade <= 10)entao
    desconto <- total * 0.30
-escreval("Seu desconto é de :", desconto)
+escreval("Seu desconto Ã© de :", desconto)
 fimse
 
 
 se(quantidade > 10 )entao
    desconto <- total * 0.50
-escreval("Seu desconto é de :", desconto)
+escreval("Seu desconto Ã© de :", desconto)
 fimse
 
 //
 
 valorFinal <- total - desconto
-escreval("O valor que você vai precisar pagar é: ", valorFinal)
+escreval("O valor que vocÃª vai precisar pagar Ã©: ", valorFinal)
 
 
 
