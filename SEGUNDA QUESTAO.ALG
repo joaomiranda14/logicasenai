@@ -41,7 +41,11 @@ LIMPATELA
 escreval("Nome: " , nome)
 escreval("Sexo: ", sexo)
 escreval("Estado civil: ", estadoCivil)
-escreval("Tempo de casada: ", tempodeCasada)
+
+se ( sexo = "F" ) e ( estadoCivil = "Casada") entao
+escreval ("Tempo de casada: ", tempodeCasada)
+fimse
+
 
 
 
