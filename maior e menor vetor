@@ -1,0 +1,30 @@
+#include <stdio.h>
+
+int main (){
+
+int notas[5];
+int i;
+int maior = 0;
+int menor = 9999;
+int quant;
+
+for ( i = 0; i < 5; i++)
+{
+printf("Digite o %d valor: ", i + 1);
+scanf("%d", &notas[i]); 
+
+maior = notas [i] > maior ? notas [i]: maior;
+menor = notas [i] < menor ? notas [i] : menor;
+
+
+}
+
+
+printf("menor: %d ", menor);
+printf("maior: %d ", maior);
+
+
+
+return 0;
+
+}
